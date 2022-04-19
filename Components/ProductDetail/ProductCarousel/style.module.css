@@ -1,0 +1,13 @@
+.product_carousel_wrap{
+    width: 50%;
+}
+.carousel-root .product_carousel_wrap{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+.carousel .carousel-slider{
+    display: flex !important;
+    border: 2px solid red !important;
+    width: 400px !important;
+    
+}
