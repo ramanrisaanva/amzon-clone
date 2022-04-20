@@ -1,8 +1,7 @@
-function productFunc() {
-    return <div>
-    hbjkk
-    </div>
+import Home from "../../Components/Home";
 
-  }
-  
-  export default productFunc
+function HomePage() {
+  return <Home/>
+}
+
+export default HomePage;
