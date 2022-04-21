@@ -14,9 +14,9 @@ export default function ProductList(){
     return(
         <div style={{
             display: 'flex',
-            margin: 20
+            margin: 30
         }} >
-            <div>
+            <div >
                 <BrandComp/>
                 <PriceComp/>
                 <InternalMemoryComp/>
@@ -25,7 +25,7 @@ export default function ProductList(){
                 <ScreenSizeComp/>
                 <ProcessorSpeedComp/>
             </div>
-            <div >
+            <div className="container" style={{borderLeftWidth: 10, paddingLeft: 20}}>
                 <Product/>
                 <Product />
                 <Product />

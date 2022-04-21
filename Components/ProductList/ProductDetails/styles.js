@@ -7,8 +7,8 @@ export const styles = {
     },
     price:{
         fontWeight: 'bold',
-        color: '#EDBF69',
-        fontSize: 20
+        color: '#BF3325',
+        fontSize: 18
     },
     disc: {
         fontSize: 14, color: '#808080' 
