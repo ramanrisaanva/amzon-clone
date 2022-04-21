@@ -6,7 +6,7 @@ export default function index() {
   return (
     <div className="flex bg-black  w-full justify-between text-center">
       <ul className="flex py-4 items-center text-base text-white text-center w-3/4">
-        <li className="w-20">
+        <li className="w-15">
           <img src="logo.png" alt="" />{" "}
         </li>
         <li className="ml-4 ">Select Your Address</li>

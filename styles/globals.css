@@ -15,7 +15,9 @@ a {
   box-sizing: border-box;
 }
 
-
+.control-dots element{
+  display: none !important;
+}
 
 
 @tailwind base;

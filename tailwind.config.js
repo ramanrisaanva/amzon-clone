@@ -8,9 +8,20 @@ module.exports = {
       blue: "#232f3e",
       black: "#000000",
       white: "#ffffff",
+      homebg:"#eaeded"
     },
     height: {
       4: "40px",
+    },
+    width:{
+      40:"40%",
+      50:"50%",
+      60:"60%",
+      25:"25%",
+      20:"20%",
+      15:"10%",
+      30:"30%",
+      full:"100%"
     },
     extend: {},
   },
