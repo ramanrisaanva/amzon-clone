@@ -19,7 +19,7 @@ function ProductPage() {
   return (
     <>
       <div className="flex m-8">
-        <div className="flex w-2/5">
+        <div className="flex" style={{width:"50%"}}>
           <ProductCarousel />
         </div>
         <div className="flex flex-col pl-8 ml-8">
@@ -57,7 +57,7 @@ function ProductPage() {
             </div>
           </div>
           <div className="my-3">
-            <button className="p-2 border border-red-600 bg-red-600 text-white">
+            <button className="p-2 border-brown border-2 bg-brown text-white ">
               Add to Cart +
             </button>
           </div>

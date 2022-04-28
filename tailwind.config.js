@@ -8,7 +8,9 @@ module.exports = {
       blue: "#232f3e",
       black: "#000000",
       white: "#ffffff",
-      homebg:"#eaeded"
+      homebg:"#eaeded",
+      brown:"#a52a2a",
+      
     },
     height: {
       4: "40px",

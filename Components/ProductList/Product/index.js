@@ -1,19 +1,23 @@
 
 import { Box } from "@mui/material";
 import ProductDetails from "../ProductDetails";
+import { useRouter } from 'next/router';
+
 
 
 export default function Product() {
+    const router = useRouter();
     return(
         <Box
         
             style={{
                 display: 'flex',
                 flexDirection: 'row',
-                // justifyContent: 'center',
                 alignItems: 'center',
-                borderBottomWidth: 2
+                borderBottomWidth: 2,
+                cursor:"pointer"
             }}
+            onClick={()=>router.push("../../productdetailpage")}
         >
             <div style={{height: 220, width: 180}}>
                 <img
